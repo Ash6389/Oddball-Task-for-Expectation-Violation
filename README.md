@@ -45,18 +45,18 @@ Block Design:
         The absence of any motor response yields cleaner, movement-free EEG data, which in turn helps get the clean data for the whole experiment statistically afterwards.
  
 Trial Setting:
-        800 trials in total, 400  trials for each blocks
-        Stimulus Duration (SD)    = 200 ms
-        Inter-Stimulus Interval (ISI)   = 1 000 ms 
-        Timeline: [first fixation cross]-50ms-[circle]-200ms-[fixation cross]-800ms-[circle]-200ms-[fixation cross]-800ms-[circle]...
+      - 800 trials in total, 400  trials for each blocks
+      - Stimulus Duration (SD)    = 200 ms
+      - Inter-Stimulus Interval (ISI)   = 1 000 ms 
+      - Timeline: [first fixation cross]-50ms-[circle]-200ms-[fixation cross]-800ms-[circle]-200ms-[fixation cross]-800ms-[circle]...
  
 Output Files (saved to Downloads in Win System):
-    data_<ID>_<timestamp>.csv    — trial-level behavioural data for Block A (keypress task)
-    summary_<ID>_<timestamp>.txt — performance summary: RT, accuracy, false alarms (Block A) and counting error (Block B)
+  - data_<ID>_<timestamp>.csv    — trial-level behavioural data for Block A (keypress task)
+  - summary_<ID>_<timestamp>.txt — performance summary: RT, accuracy, false alarms (Block A) and counting error (Block B)
  
 NOTE — FULL EXPERIMENT MODE:
-    Parameters are set to full experimental values (400 trials per block, 800 total).
-    To run a quick debug pass, change five constants inside generate_block_sequence():
+  - Parameters are set to full experimental values (400 trials per block, 800 total).
+  - To run a quick debug pass, change five constants inside generate_block_sequence():
         N_REGULAR_TRIPLETS = 5
         N_RANDOM_BLACK     = 10
         N_VIOLATION_BLUE   = 3
