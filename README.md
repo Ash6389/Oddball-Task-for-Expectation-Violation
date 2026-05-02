@@ -45,7 +45,8 @@ Block Design:
         The absence of any motor response yields cleaner, movement-free EEG data, which in turn helps get the clean data for the whole experiment statistically afterwards.
  
 Trial Setting:
-   Trial numbers and timeline
+   Trial numbers and timeline:
+   
       - 800 trials in total, 400  trials for each blocks
       - Stimulus Duration (SD)    = 200 ms
       - Inter-Stimulus Interval (ISI)   = 1 000 ms 
