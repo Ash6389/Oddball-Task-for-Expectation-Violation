@@ -1,5 +1,6 @@
 # Oddball-Task-for-Expectation-Violation
 This is a behavioral experiment conducted using psychopy and assisted by EEG devices to obtain EEG data.
+The experiment follows a Counterbalancing Scheme across its two blocks to mitigate potential order and color-stimulus effects. Participants are divided into two groups, receiving instructions that are reversed in both content and sequence. While this Python script is configured for the first group, the version for the remaining participants requires only minor modifications to the instruction text and the task order.
 
 Expectation-Structure Visual Oddball Task — ADHD vs. Neurotypical Adults
 ========================================================================
